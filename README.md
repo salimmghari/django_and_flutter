@@ -13,6 +13,7 @@ Technologies:
 - BLoC
 - JSON
 - Git
+
 Developed by Salim Mghari 
 
 ---
@@ -24,6 +25,14 @@ Developed by Salim Mghari
 
 > - `cd frontend/`
 > - `flutter pub get && flutter run`
+
+---
+
+### License:
+
+Proprietary License
+
+Salim Mghari 2024
 
 ---
 
