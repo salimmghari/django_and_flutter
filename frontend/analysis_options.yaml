@@ -1,0 +1,8 @@
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    annotate_overrides: false
+    unnecessary_brace_in_string_interps: false
+    sized_box_for_whitespace: false
+    avoid_print: false
+    
