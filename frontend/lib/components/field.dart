@@ -52,9 +52,22 @@ class Field extends StatelessWidget {
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Style.primaryRadius),
                 borderSide: BorderSide(
-                  color: Style.primaryColor
-                )
-              ) 
+                  color: Style.primaryColor,
+                ),
+              ),
+              enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.all(Style.primaryRadius),
+                borderSide: BorderSide(
+                  color: Style.primaryColor,
+                ),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.all(Style.primaryRadius),
+                borderSide: BorderSide(
+                  color: Style.primaryColor,
+                  width: 2.0, // You can adjust the width for focus
+                ),
+              ),
             ),
             style: const TextStyle(
               fontSize: 15.0,
